@@ -1,81 +1,79 @@
-.photo{
-  float: left;
-  width: 30%;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
-}
-.photo > img{
-    width:205px;
-    height:20%;
-}
-.photo, .FQ{
-    margin-top:5%;
-    text-align: center;
-    margin-bottom: 5%;
-    
-}
-.FQ{
- float: left;
- width: 60%;
- height: 20%;
- margin-left: 5%;
- border: 1px solid rgb(50, 50,50); 
- background-color: rgb(50, 50,50);
-}
-body{
-background-color:rgb(35, 94, 112);
-color: rgb(228, 228, 228);
-}
-.main
-{
-   width: 50%;
-   height: 100%;
-   box-shadow:  0 0 10px rgba(0,0,0,0.5);
-   margin-left: 25%;
-}
-.main_wr
-{
-   width: 50%;
-   box-shadow:  0 0 10px rgba(0,0,0,0.5);
-   margin-left: 25%;
-   text-align: center;
-}
-.main_wr > .wr > ul > li{
-    list-style-type: none;
-}
-.wr{
- border: 1px solid rgb(50, 50,50); 
- background-color: rgb(50, 50,50);
- margin-left: 5%;
- margin-right: 5%;
-
-
-}
-.main_wr > .wr > ul{
- margin-left: 0; 
- padding-left: 0;
-}
-.works{
-    padding-top: 15px;
-    margin-left:4%;
-    clear: both;
-    width: 93%;
-    border: 1px solid rgb(50, 50,50);
-    background-color: rgb(50, 50,50); 
-
-}
-.works > h3{
-    padding-left: 3%;
-}
-A:link { 
-    text-decoration: none; /* Убирает подчеркивание для ссылок */
-}  
-a{
-   color: rgb(228, 228, 228);
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
-A:hover {
-    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
-    color: #FDF4E3; /* Цвет ссылки */
-} 
-A:visited { text-decoration: none; color: #FFFDD0;} 
-A:active { text-decoration: none; }
+html,body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin: 30px auto 20px auto;
+    padding: 15px;
+}
+
+article.primari-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+article.primari-info > * {
+    margin: 0 10px;
+}
+article.primari-info > *:first-child {
+    margin-left: 0;
+}
+
+article.primari-info > *:last-child {
+    margin-right: 0;
+}
+
+article.primari-info .info {
+    width: 30%;
+    flex-grow: 1;
+    max-width: 500px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+article.primari-info .photo {
+    background: red;
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    box-sizing: border-box;
+    background-image: url(https://sun9-63.userapi.com/c856032/v856032976/1bb406/1ve66TG2HpY.jpg);
+    background-size: cover;
+    flex-shrink: 1;
+}
+
+article.primari-info .photo.circle {
+  border-radius: 100%;
+}
+
+article.content {
+    border: 2px solid black;
+    padding: 0 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+}
