@@ -68,10 +68,13 @@ article.primari-info .photo.circle {
 article.content {
     border: 2px solid black;
     padding: 0 20px;
+}
+article.content_wr {
+   border: 2px solid black;
+    padding: 0 20px;
   width: 50%;
     margin-left: 25%;
 }
-
 h1{
   text-align: center;
 }
