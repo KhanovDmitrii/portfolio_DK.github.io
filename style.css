@@ -4,7 +4,7 @@
 
 }
 .photo > img{
-    width:190px;
+    width:205px;
     height:20%;
 }
 .photo, .FQ{
@@ -15,22 +15,55 @@
 }
 .FQ{
  float: left;
- width: 50%;
+ width: 60%;
  height: 20%;
- border: 1px solid black; 
-
+ margin-left: 5%;
+ border: 1px solid rgb(50, 50,50); 
+ background-color: rgb(50, 50,50);
 }
-body
+body{
+background-color:rgb(35, 94, 112);
+color: rgb(228, 228, 228);
+}
+.main
 {
-
-    width: 90%;
+   width: 50%;
+   height: 100%;
+   box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   margin-left: 25%;
 }
-
-
+.main_wr
+{
+   width: 50%;
+   height: 100%;
+   box-shadow:  0 0 10px rgba(0,0,0,0.5);
+   margin-left: 25%;
+   text-align: center;
+}
+.main_wr > ul > li{
+    list-style-type: none;
+}
+.main_wr > ul{
+ margin-left: 0; 
+ padding-left: 0;
+}
 .works{
     padding-top: 15px;
-    margin-left:20%;
+    margin-left:4%;
     clear: both;
-    width: 50%;
-    border: 1px solid black; 
+    width: 93%;
+    border: 1px solid rgb(50, 50,50);
+    background-color: rgb(50, 50,50); 
 }
+.works > h3{
+    padding-left: 3%;
+}
+A:link { 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+}  
+A:hover {
+    text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: #FDF4E3; /* Цвет ссылки */
+} 
+A:visited { text-decoration: none; color: #FFFDD0;} 
+A:active { text-decoration: none; }
