@@ -35,15 +35,22 @@ color: rgb(228, 228, 228);
 .main_wr
 {
    width: 50%;
-   height: 100%;
    box-shadow:  0 0 10px rgba(0,0,0,0.5);
    margin-left: 25%;
    text-align: center;
 }
-.main_wr > ul > li{
+.main_wr > .wr > ul > li{
     list-style-type: none;
 }
-.main_wr > ul{
+.wr{
+ border: 1px solid rgb(50, 50,50); 
+ background-color: rgb(50, 50,50);
+ margin-left: 5%;
+ margin-right: 5%;
+
+
+}
+.main_wr > .wr > ul{
  margin-left: 0; 
  padding-left: 0;
 }
@@ -54,6 +61,7 @@ color: rgb(228, 228, 228);
     width: 93%;
     border: 1px solid rgb(50, 50,50);
     background-color: rgb(50, 50,50); 
+
 }
 .works > h3{
     padding-left: 3%;
@@ -61,12 +69,13 @@ color: rgb(228, 228, 228);
 A:link { 
     text-decoration: none; /* Убирает подчеркивание для ссылок */
 }  
+a{
+   color: rgb(228, 228, 228);
+}
+
 A:hover {
     text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
     color: #FDF4E3; /* Цвет ссылки */
-} 
-a{
-   color: rgb(228, 228, 228);
 } 
 A:visited { text-decoration: none; color: #FFFDD0;} 
 A:active { text-decoration: none; }
