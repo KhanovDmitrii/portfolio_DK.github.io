@@ -65,5 +65,8 @@ A:hover {
     text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
     color: #FDF4E3; /* Цвет ссылки */
 } 
+a{
+   color: rgb(228, 228, 228);
+} 
 A:visited { text-decoration: none; color: #FFFDD0;} 
 A:active { text-decoration: none; }
